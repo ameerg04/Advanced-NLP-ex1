@@ -174,12 +174,4 @@ The project supports:
 - Apple Silicon MPS acceleration
 - CPU fallback
 
----
-
-# Notes
-
-- Dynamic padding is used during batching.
-- Inputs are automatically truncated to the model maximum length.
-- The model is loaded using `AutoModelForSequenceClassification`.
-- `model.eval()` is called before prediction.
 
