@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+wandb/
+.ipynb_checkpoints/
+.DS_Store
+models/
